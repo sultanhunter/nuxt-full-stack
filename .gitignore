@@ -18,6 +18,9 @@ logs
 .fleet
 .idea
 
+bun.lockb
+package-lock.json
+
 # Local env files
 .env
 .env.*
