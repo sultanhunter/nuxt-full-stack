@@ -1,6 +1,11 @@
 <script setup>
-
 const loading = ref(false)
+
+definePageMeta({
+  middleware: 'auth',
+  layout: 'authenticated'
+})
+
 </script>
 
 <template>
